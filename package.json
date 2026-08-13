@@ -1,5 +1,5 @@
 {
-    "name": "Collections",
+    "name": "@russgooday/collections",
     "version": "1.0.0",
     "description": "The is a library of standard utility functions designed to work with numerous data structures, including arrays, objects, and maps.",
     "type": "module",
