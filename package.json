@@ -1,0 +1,44 @@
+{
+    "name": "Collections",
+    "version": "1.0.0",
+    "description": "The is a library of standard utility functions designed to work with numerous data structures, including arrays, objects, and maps.",
+    "type": "module",
+    "main": "dist/cjs/index.js",
+    "module": "dist/ejs/index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "prepack": "npmignore --auto",
+        "test": "vitest --printConsoleTrace=true --silent=false",
+        "build": "rollup -c && eslint --fix",
+        "examples": "node --watch examples/examples.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/russgooday/Collections.git"
+    },
+    "keywords": [],
+    "author": "Russell Gooday",
+    "license": "MIT",
+    "publishConfig": {
+        "ignore": [
+            "!build/",
+            "src/",
+            "test/"
+        ]
+    },
+    "dependencies": {
+        "vite": "^8.2.1"
+    },
+    "devDependencies": {
+        "rolldown": "^1.2.4",
+        "vitest": "^4.1.10"
+    },
+    "directories": {
+        "example": "examples",
+        "test": "tests"
+    },
+    "bugs": {
+        "url": "https://github.com/russgooday/Collections/issues"
+    },
+    "homepage": "https://github.com/russgooday/Collections#readme"
+}

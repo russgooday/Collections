@@ -5,6 +5,8 @@
  * dot chained Vanilla JS conversions and the built-in methods.
  */
 
+export { prop, props } from './internals/_prop.js';
+export { getFromPath as get } from './internals/_get.js';
 export { find, findArray } from './internals/_find.js';
 export { map, mapArray } from './internals/_map.js';
 export { flatMap, flatMapObject, flatMapArray } from './internals/_flatMap.js';
