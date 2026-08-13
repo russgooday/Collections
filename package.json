@@ -9,7 +9,7 @@
     "scripts": {
         "prepack": "npmignore --auto",
         "test": "vitest --printConsoleTrace=true --silent=false",
-        "build": "rollup -c && eslint --fix",
+        "build": "rolldown -c",
         "examples": "node --watch examples/examples.js"
     },
     "repository": {
@@ -27,6 +27,7 @@
         ]
     },
     "dependencies": {
+        "js-beautify": "^2.0.3",
         "vite": "^8.2.1"
     },
     "devDependencies": {
